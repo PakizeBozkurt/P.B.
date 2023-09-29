@@ -57,3 +57,6 @@ span{
 .navlist a:hover{
     color: var(--main-color)
 }
+.navlist a.active{
+    color: var(--main-color)
+}
