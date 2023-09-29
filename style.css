@@ -8,10 +8,10 @@
   scroll-behavior: smooth;
 }
 :root {
-  --bg-color: #2a2a2a;
+  --bg-color: #fff;
   --second-bg-color: #202020;
-  --text-color: #fff;
-  --second-color: #ccc;
+  --text-color: #2a2a2a;
+  --second-color: #202020;
   --main-color: #16FF00;
   --big-font: 5rem;
   --h2-font: 3rem;
@@ -66,4 +66,5 @@ span{
   z-index: 10001;
   cursor: pointer;
   margin-left: 25px;
+  display: none;
 }
