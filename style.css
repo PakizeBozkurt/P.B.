@@ -83,3 +83,6 @@ section{
   align-items: center;
   justify-content: flex-start;
 }
+.slide{
+  margin-bottom: 20px;
+}
