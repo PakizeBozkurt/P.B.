@@ -108,6 +108,20 @@ section{
   font-size: var(--big-font);
   font-weight: 700;
   color: var(--text-color);
-  list-style: 1.1;
+  line-height: 1.1;
   margin: 0 0 8px;
+}
+.home-text h3{
+  font-size: 3rem;
+  font-weight: 700;
+  color: var(--text-color);
+  line-height: 1.1;
+  margin: 0 0 35px;
+}
+.home-text p{
+  font-size: var(--p-font);
+  font-weight: 700;
+  color: var(--second-color);
+  line-height: 1.8;
+  margin-bottom: 40px;
 }
