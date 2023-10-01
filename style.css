@@ -125,3 +125,8 @@ section{
   line-height: 1.8;
   margin-bottom: 40px;
 }
+.button{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
