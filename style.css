@@ -176,3 +176,9 @@ header.sticky{
   border-bottom: 1-x solid #ffffff1a;
   padding: 12px 15%;
 }
+.about{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  gap: 1.5rem;
+}
