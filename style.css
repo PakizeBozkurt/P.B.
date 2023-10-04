@@ -234,3 +234,13 @@ header.sticky{
   border-radius: 20px;
   transition: all .45s ease;
 }
+.s-icons i{
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+.box h3{
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--text-color);
+  margin-bottom: 15px;
+}
