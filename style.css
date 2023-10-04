@@ -221,3 +221,16 @@ header.sticky{
   font-size: var(--h2-font);
   line-height: 1;
 }
+.services-content{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+  align-items: center;
+  gap: 2.5rem;
+  margin-top: 5rem;
+}
+.box{
+  background: var(--bg-color);
+  padding: 35px 45px;
+  border-radius: 20px;
+  transition: all .45s ease;
+}
