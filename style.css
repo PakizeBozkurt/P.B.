@@ -205,3 +205,10 @@ header.sticky{
   line-height: 1.8;
   margin-bottom: 4rem;
 }
+
+.services{
+  background: var(--second-bg-color);
+}
+.main-text{
+  text-align: center;
+}
