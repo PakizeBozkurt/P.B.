@@ -217,3 +217,7 @@ header.sticky{
   font-size: 15px;
   margin-bottom: 15px;
 }
+.main-text h2{
+  font-size: var(--h2-font);
+  line-height: 1;
+}
