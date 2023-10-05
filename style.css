@@ -8,7 +8,7 @@
   scroll-behavior: smooth;
 }
 :root {
-  --bg-color: #202020;
+  --bg-color: #2a2a2a;
   --second-bg-color: #202020;
   --text-color: #fff;
   --second-color: #ccc;
@@ -191,6 +191,7 @@ header.sticky{
 .about-text h2{
   font-size: var(--h2-font);
   line-height: 1;
+  color: var(--second-color);
 }
 .about-text h4{
   font-size: 24px;
@@ -220,6 +221,7 @@ header.sticky{
 .main-text h2{
   font-size: var(--h2-font);
   line-height: 1;
+  color: var(--second-color);
 }
 .services-content{
   display: grid;
@@ -231,12 +233,13 @@ header.sticky{
 .box{
   background: var(--bg-color);
   padding: 35px 45px;
-  border-radius: 20px;
+  border-radius: 8px;
   transition: all .45s ease;
 }
 .s-icons i{
   font-size: 32px;
   margin-bottom: 20px;
+  color: var(--second-color);
 }
 .box h3{
   font-size: 24px;
@@ -265,7 +268,7 @@ header.sticky{
   background: #ffffff99;
   color: var(--text-color);
 }
-box:hover{
+.box:hover{
   transform: translateY(-8px);
   cursor: pointer;
 }
