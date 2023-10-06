@@ -272,3 +272,11 @@ header.sticky{
   transform: translateY(-8px);
   cursor: pointer;
 }
+
+.portfolio-content{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, auto));
+  align-items: center;
+  gap: 2.5rem;
+  margin-top: 5rem;
+}
