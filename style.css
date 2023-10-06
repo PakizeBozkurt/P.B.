@@ -280,3 +280,15 @@ header.sticky{
   gap: 2.5rem;
   margin-top: 5rem;
 }
+.row{
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.row img{
+  width: auto;
+  border-radius: 8px;
+  display: block;
+  transition: transform 0.5s;
+}
