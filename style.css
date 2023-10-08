@@ -356,3 +356,9 @@ header.sticky{
   line-height: 1;
   color: var(--text-color);
 }
+.contact-text p{
+  font-size: var(--p-font);
+  line-height: 1.8;
+  color: var(--second-color);
+  margin-bottom: 30px;
+}
