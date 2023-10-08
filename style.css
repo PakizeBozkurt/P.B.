@@ -191,7 +191,7 @@ header.sticky{
 .about-text h2{
   font-size: var(--h2-font);
   line-height: 1;
-  color: var(--second-color);
+  color: var(--text-color);
 }
 .about-text h4{
   font-size: 24px;
@@ -221,7 +221,7 @@ header.sticky{
 .main-text h2{
   font-size: var(--h2-font);
   line-height: 1;
-  color: var(--second-color);
+  color: var(--text-color);
 }
 .services-content{
   display: grid;
@@ -344,4 +344,15 @@ header.sticky{
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
   gap: 2.5rem;
+}
+.contact-text h4{
+  color: var(--text-color);
+  margin: 18px 0;
+  font-size: 20px;
+  font-weight: 600;
+}
+.contact-text h2{
+  font-size: var(--h2-font);
+  line-height: 1;
+  color: var(--text-color);
 }
