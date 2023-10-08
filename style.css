@@ -374,3 +374,17 @@ header.sticky{
   font-size: 14px;
   transition: all .45s ease;
 }
+.list li a:hover{
+  color: var(--text-color);
+  transform: translateX(5px);
+}
+.contact-icons i{
+  height: 45px;
+  width: 45px;
+  background: var(--main-color);
+  color: var(--text-color);
+  font-size: 22px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
