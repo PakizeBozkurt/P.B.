@@ -395,3 +395,15 @@ header.sticky{
   background: var(--text-color);
   color: var(--main-color);
 }
+
+.contact-form form{
+  position: relative;
+}
+.contact-form form input, from textarea{
+  width: 100%;
+  padding: 14px;
+  background: var(--bg-color);
+  color: var(--text-color);
+  border: none;
+  outline: none;
+}
