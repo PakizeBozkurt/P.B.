@@ -414,3 +414,8 @@ header.sticky{
   resize: none;
   height: 240px;
 }
+.contact-form .submit{
+  display: inline-block;
+  font-size: 16px;
+  background: var(--main-color);
+}
