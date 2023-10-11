@@ -479,3 +479,9 @@ header.sticky{
     height: 87vh;
   }
 }
+
+@media (max-width: 920px){
+.about{
+  grid-template-columns: 1fr;
+}
+}
