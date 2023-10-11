@@ -484,4 +484,13 @@ header.sticky{
 .about{
   grid-template-columns: 1fr;
 }
+.about-img{
+  text-align: center;
+  order: 2;
+}
+.about-img img{
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+}
 }
