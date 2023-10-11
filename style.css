@@ -457,4 +457,10 @@ header.sticky{
     padding: 10px 2.5%;
     transition: .1s;
   }
+  section{
+  padding: 110px 3% 60px;
+  }
+  .end{
+    padding: 15px 3%;
+  }
 }
