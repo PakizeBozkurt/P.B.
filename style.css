@@ -525,4 +525,7 @@ transition: all .45s ease;
 .navlist a.active{
   color: var(--text-color);
 }
+.navlist.open{
+  top: 100%;
+}
 }
