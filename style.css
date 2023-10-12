@@ -503,7 +503,7 @@ from textarea {
 }
 .navlist{
 position: absolute;
-top: 100%;
+top: -1000px;
 right: 0;
 left: 0;
 display: flex;
@@ -517,6 +517,12 @@ transition: all .45s ease;
   margin: 17px;
   font-size: 20px;
   transition: all .45s ease;
+  color: var(--text-color);
+}
+.navlist a:hover{
+  color: var(--main-color);
+}
+.navlist a.active{
   color: var(--text-color);
 }
 }
