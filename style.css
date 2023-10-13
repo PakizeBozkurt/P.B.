@@ -399,7 +399,7 @@ header.sticky {
   position: relative;
 }
 .contact-form form input,
-from textarea {
+form textarea {
   width: 100%;
   padding: 14px;
   background: var(--bg-color);
